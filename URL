@@ -1,0 +1,11 @@
+    var _url = window.location.href;
+		function parse_url(_url) {
+			var pattern = /(\w+)=(\w+)/ig;
+			var parames = {};
+			_url.replace(pattern, function(a, b, c) {
+				parames[b] = c;
+			});
+			return parames;
+		}
+		var parames = parse_url(_url);
+		var id = parames['id'];
