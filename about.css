@@ -1,0 +1,8 @@
+//正方形
+div:before {
+    content: "";
+    display: inline-block;
+    padding-bottom: 100%;
+    width: .1px;
+    vertical-align: middle;
+}
