@@ -1,0 +1,8 @@
+获取用户的公网ip：
+npm install --save public-ip
+
+https://github.com/sindresorhus/public-ip
+https://github.com/alsotang/externalip
+
+os.networkInterfaces()
+req.connection.remoteAddress
